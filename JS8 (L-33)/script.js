@@ -54,14 +54,20 @@
 //     else console.log("-ve")
 
 
-let i = + prompt ('Enter no.')
-if ( i > 0 ) {
-    console.log( "+ve")
-} else if (i === 0) { 
-    console.log("Zero")
-} else {
-        console.log("-ve")
-    }
+// let i =  prompt ('Enter no.')
+// if ( i > 0 ) {
+//     console.log( "+ve")
+// } else if (i === 0) { 
+//     console.log("Zero")
+// } else {
+//         console.log("-ve")
+//     }
+
+
+
+// let i = Number(prompt('Num'))
+// i>0? console.log("+ve") : console.log("-ve") 
+
 
 
 // let i = +prompt ('Enter no.')
@@ -71,3 +77,20 @@ if ( i > 0 ) {
 //     else {
 //         console.log("-ve")
 //     }
+
+// TB
+
+// age vote
+
+// let i = prompt('No.')
+// if (i>=18) console.log("You can vote")
+//     else (console.log("Chhotu, go to school"))
+
+let i = prompt("Age")
+if (i === null) {
+    console.error("Try Again , you pressed cancel")
+}
+else if (i.trim()==="") {
+    console.error("Write something valid, no space")
+}
+
